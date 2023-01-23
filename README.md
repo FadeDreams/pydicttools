@@ -4,52 +4,29 @@ This package contains a collection of functions that perform various operations 
 
 #### Features
 
-- 'concat_dict(dict1, dict2)':
+- 'concat_dict(dict1, dict2)': Takes two dictionaries as input and returns a new dictionary that is the result of merging the keys and values of both input dictionaries.
 
-Takes two dictionaries as input and returns a new dictionary that is the result of merging the keys and values of both input dictionaries.
+- 'key_exists(dictionary, key)': Takes a dictionary and a key as input and returns a Boolean indicating whether the key exists in the dictionary.
 
-- 'key_exists(dictionary, key)':
+- 'value_exists(dictionary, value)': Takes a dictionary and a value as input and returns a Boolean indicating whether the value exists in the dictionary.
 
-Takes a dictionary and a key as input and returns a Boolean indicating whether the key exists in the dictionary.
+- 'is_empty(dictionary)': Takes a dictionary as input and returns a Boolean indicating whether the dictionary is empty.
 
-- 'value_exists(dictionary, value)':
+- get_value_from_dict(dictionary, key_path): Takes a dictionary and a key path as input and returns the value associated with the key path.
 
-Takes a dictionary and a value as input and returns a Boolean indicating whether the value exists in the dictionary.
+- 'is_subset(dict1, dict2)': Takes two dictionaries as input and returns a Boolean indicating whether dict1 is a subset of dict2.
 
-- 'is_empty(dictionary)':
+- 'sort_dict_by_key(d)': Takes a dictionary as input and returns a new dictionary with the items sorted by key.
 
-Takes a dictionary as input and returns a Boolean indicating whether the dictionary is empty.
+- 'sort_dict_by_custom_key(d, key_extractor)': Takes a dictionary and a key extractor function as input and returns a new dictionary with the items sorted by the custom key extractor.
 
-get_value_from_dict(dictionary, key_path):
-Takes a dictionary and a key path as input and returns the value associated with the key path.
+- 'pretty_print_dict(d, indent)': Takes a dictionary and an indentation level as input and pretty prints the dictionary.
 
-- 'is_subset(dict1, dict2)':
+- 'iterate_dict(d)': Takes a dictionary as input and returns an iterator over the key-value pairs of the dictionary.
 
-Takes two dictionaries as input and returns a Boolean indicating whether dict1 is a subset of dict2.
+- 'clone(obj)': Takes an object as input and returns a deep copy of the object.
 
-- 'sort_dict_by_key(d)':
-
-Takes a dictionary as input and returns a new dictionary with the items sorted by key.
-
-- 'sort_dict_by_custom_key(d, key_extractor)':
-
-Takes a dictionary and a key extractor function as input and returns a new dictionary with the items sorted by the custom key extractor.
-
-- 'pretty_print_dict(d, indent)':
-
-Takes a dictionary and an indentation level as input and pretty prints the dictionary.
-
-- 'iterate_dict(d)':
-
-Takes a dictionary as input and returns an iterator over the key-value pairs of the dictionary.
-
-- 'clone(obj)':
-
-Takes an object as input and returns a deep copy of the object.
-
-- 'clone_async(obj)':
-
-Takes an object as input and returns a deep copy of the object asynchronously.
+- 'clone_async(obj)': Takes an object as input and returns a deep copy of the object asynchronously.
 
 #### Installation
 
