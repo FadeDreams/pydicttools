@@ -56,7 +56,7 @@ Takes an object as input and returns a deep copy of the object asynchronously.
 To install the package, run the following command:
 
 ```python
-pip install pydictutils
+pip install pydicttool
 ```
 
 #### Usage

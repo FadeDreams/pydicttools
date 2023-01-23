@@ -1,5 +1,4 @@
-from pydictutils.pydictutils import *
-import asyncio
+from pydicttools.pydicttools import *
 import pytest
 
 def test_concat_dict():
@@ -59,19 +58,6 @@ def test_iterate_dict():
     expected_output = [('a', 3), ('b', 1), ('c', 2)]
     assert list(iterate_dict(my_dict)) == expected_output
 
-# @pytest.mark.asyncio
-# async def test_clone_async():
-    # # original object to be cloned
-    # original = {
-            # "a": 1,
-            # "b": [2, 3, 4],
-            # "c": {"d": 5, "e": 6}
-            # }
-    # async with asyncio.get_event_loop() as loop:
-        # task = asyncio.create_task(clone(original))
-        # cloned = await task
-        # loop.run_until_complete(task)
-    # assert cloned == original
 
 @pytest.mark.asyncio
 async def test_clone_async():

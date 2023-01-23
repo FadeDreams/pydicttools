@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "pydictutils"
+name = "pydicttools"
 version = "0.1.0"
 description = "Set of tools to handle Dict type in Python."
 authors = ["fadedreams7 <fadedreams7@gmail.com>"]
 readme = "README.md"
 license = "MIT"
-repository = "https://github.com/fadedreams/pydictutils"
+repository = "https://github.com/fadedreams/pydicttools"
 keywords = ["regex", "utilities"]
 classifiers = [
   "Environment :: Console",
